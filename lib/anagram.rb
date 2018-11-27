@@ -7,7 +7,7 @@
       @word = word
     end
 
-    def match(arry_of_words)
+    def match(word)
       array_of_words.select do |element|
         (@word.split("").sort) == (element.split("").sort)
       end
