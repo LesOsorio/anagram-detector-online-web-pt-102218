@@ -6,8 +6,9 @@
     def initialize(word)
       @word = word
     end
-      
 
+    def match(arry_of_words)
 
+    end 
 
   end
